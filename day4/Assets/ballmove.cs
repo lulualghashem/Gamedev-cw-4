@@ -11,6 +11,8 @@ public class ballmove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+      scr = GetComponent<AudioSource>();    
       rb = GetComponent<Rigidbody2D>();  
     }
 
